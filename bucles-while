@@ -1,0 +1,17 @@
+"crear bucle que cuente del 1 al 5"
+
+contador = 1
+while contador<=5:
+    print(contador)
+    contador=contador+1
+
+
+"bucle - cuando el ususario de enter el bucle se cerrara"
+
+print("escribe cualquier cosa para mostrar en pantalla\nCuando solo le des ENTER el bucle se cerrara")
+mensaje=input("escribe aqui: ")
+
+while mensaje:
+    print(mensaje)
+    mensaje=input("escribe aqui: ")
+print("haz dado ENTER fin del programa")
