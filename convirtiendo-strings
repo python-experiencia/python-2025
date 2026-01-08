@@ -1,0 +1,21 @@
+# -*- coding: latin-1 -*-   # esto es para que me acepte tildes y caracteres del idioma europeo y latin.
+print("hola mundo")
+
+"""Nivel 1: Variables y Cadenas (Capítulo 2)
+Ejercicio: "El Formateador de Tarjetas" Imagina que trabajas para una empresa que imprime tarjetas de identificación. 
+Tienes los datos de un empleado en variables sueltas y desordenadas (mayúsculas/minúsculas mezcladas).
+Crea variables para: nombre = "juan", apellido = "Perez", puesto = "desarrollador SENIOR".
+Usa "f-strings" y métodos de cadena (.title(), .upper()) para imprimir un mensaje con este formato exacto:
+"Empleado: Juan Perez"
+"Cargo: DESARROLLADOR SENIOR"
+"Email generado: juan.perez@empresa.com" (todo en minúsculas).
+Usa \n y \t para que, al imprimir, el cargo aparezca en una línea nueva y con una sangría."""
+
+print('los siguientes datos que se piden seran para ingresarlos a formateador de tarjetas \ncon el fin de que aparezcan los datos organizados ')
+empleado = input('\tIngrese su nombre: ').lower().title()
+cargo = input('\tIngrese su cargo: ').lower().title()
+email = input('\tIngrese el email: ').lower().title()
+print(f"\nLos datos del empleado son:\nEmpleado= {empleado}\nCargo= {cargo}\nEmail= {email}")
+
+input('presiona enter para continuar')
+
